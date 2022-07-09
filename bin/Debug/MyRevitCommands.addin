@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			BDCA3694-3113-4C56-85D6-41868A5D234C
+		</AddInId>
+		<FullClassName>MyRevitCommands.GetElementId</FullClassName>
+		<Text>GetElementId</Text>
+		<Description>Get the Id from an element</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			D2A68350-A95B-4C19-BC83-E575958E02FC
+		</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>CollectWindows</Text>
+		<Description>Collect windows for a document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			4B87FD42-E9EF-4B59-BA0D-5469015B8F2D
+		</AddInId>
+		<FullClassName>MyRevitCommands.DeleteElement</FullClassName>
+		<Text>DeleteElement</Text>
+		<Description>Delets an Element from the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			1CCE7DA4-89B2-47DD-B994-FC2B185D1F48
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceFamilySimplified</FullClassName>
+		<Text>PlaceFamilySimplified</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			9A5B4DEE-5ED6-4D51-ADF8-E59FE83C87AE
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLineElement</FullClassName>
+		<Text>PlaceLineElement</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			7BC0B920-2674-4C00-A394-C038097CC535
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLoopElement</FullClassName>
+		<Text>PlaceLoopElement</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			8104359D-6C8B-483E-B18C-8355A1DEC29A
+		</AddInId>
+		<FullClassName>MyRevitCommands.GetParameter</FullClassName>
+		<Text>GetParameter</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			F06F0E11-1C08-4232-B221-BDE2690B0E83
+		</AddInId>
+		<FullClassName>MyRevitCommands.SetParameter</FullClassName>
+		<Text>SetParameter</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			4D020AB1-0E20-40E3-BE28-4D104B7841A1
+		</AddInId>
+		<FullClassName>MyRevitCommands.ChangeLocation</FullClassName>
+		<Text>ChangeLocation</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			19E4DDEE-2B8B-4E8A-A5AB-C3BE621C08C7
+		</AddInId>
+		<FullClassName>MyRevitCommands.EditElement</FullClassName>
+		<Text>EditElement</Text>
+		<Description>Place family in the document</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			40227A02-ACAF-405F-8756-91753A33E612
+		</AddInId>
+		<FullClassName>MyRevitCommands.SelectGeometry</FullClassName>
+		<Text>SelectGeometry</Text>
+		<Description>Select a Geometry</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			0ED26C2F-145B-4F73-8D38-2F2F2D819BDC
+		</AddInId>
+		<FullClassName>MyRevitCommands.ElementIntersection</FullClassName>
+		<Text>ElementIntersection</Text>
+		<Description>Intersection of elements</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			829D49FD-C8FC-4C6E-9DAE-C2E72A3ACB8A
+		</AddInId>
+		<FullClassName>MyRevitCommands.ProjectRay</FullClassName>
+		<Text>ProjectRay</Text>
+		<Description>Project Ray</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+            1DF5E5BA-015F-4EA0-B48E-F96D6FF3D85B
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlanView</FullClassName>
+		<Text>PlanView</Text>
+		<Description>PlanView</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+            0225DF31-1508-4DE4-B597-0694780A2DC2
+		</AddInId>
+		<FullClassName>MyRevitCommands.ViewFilter</FullClassName>
+		<Text>ViewFilter</Text>
+		<Description>ViewFilter</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+            B033EB70-3C69-42CC-B1EE-10249E9A1EA8
+		</AddInId>
+		<FullClassName>MyRevitCommands.TagView</FullClassName>
+		<Text>TagView</Text>
+		<Description>TagView</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+            D64D51CB-C8F0-4068-AC23-F96B666F7106
+		</AddInId>
+		<FullClassName>MyRevitCommands.Sheets</FullClassName>
+		<Text>Sheets</Text>
+		<Description>Sheets</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+            4459D94C-36BD-4D71-9E51-1BA543219503
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceView</FullClassName>
+		<Text>PlaceView</Text>
+		<Description>PlaceView</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>ApplicationPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			DC9C23DA-0E77-4E46-9B96-00946FA51FAB
+		</AddInId>
+		<FullClassName>MyRevitCommands.ExternalApplication</FullClassName>
+		<VendorId>Jeremy</VendorId>
+		<VendorDescription>@Learndynamo</VendorDescription>
+	</AddIn>
+	<AddIn Type="DBApplication">
+	<Name>DBApplicationPlugin</Name>
+	<Assembly>MyRevitCommands.dll</Assembly>
+	<AddInId>
+		4EA71F3C-9C64-4BC5-895C-EC52B58C774D
+	</AddInId>
+	<FullClassName>MyRevitCommands.ExternalDBapp</FullClassName>
+	<VendorId>Jeremy</VendorId>
+	<VendorDescription>@Learndynamo</VendorDescription>
+	</AddIn>
+
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			E5499182-FAAB-4543-BE35-11E681C40326
+		</AddInId>
+		<FullClassName>MyRevitCommands.Tests</FullClassName>
+		<Text>Tests</Text>
+		<Description>Testes gerais</Description>
+		<VendorId>Augusto</VendorId>
+		<VendorDescription>@eugustu</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
