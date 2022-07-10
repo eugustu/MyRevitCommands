@@ -71,7 +71,6 @@
     <Compile Include="Commands\PlaceLineElement.cs" />
     <Compile Include="ExternalApplication.cs" />
     <Compile Include="ExternalDBapp.cs" />
-    <Compile Include="My Commands\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Commands\Sheets.cs" />
     <Compile Include="Commands\TagView.cs" />
