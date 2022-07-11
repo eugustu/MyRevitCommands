@@ -49,9 +49,18 @@ namespace AsyncAwait
                     double dist = _plane.SignedDistanceTo(center);
                     DataGridViewRow row = (DataGridViewRow)dgv_Items.RowTemplate.Clone();
                     row.CreateCells(dgv_Items, floor.Id.IntegerValue.ToString(), dist);
+                    Thread.Sleep(10);
                     return row;
                 }));
             return await Task.WhenAll(tasks);
+        }
+
+        private void btn_Normal_Click(object sender, EventArgs e)
+        {
+            _start = DateTime.Now;
+            var values = ObterDistanciasNormal();
+            this.dgv_Items.Rows.AddRange(values);
+            this.lblTime.Text = (DateTime.Now - _start).TotalSeconds.ToString();
         }
 
         private DataGridViewRow[] ObterDistanciasNormal()
@@ -67,18 +76,11 @@ namespace AsyncAwait
                     double dist = _plane.SignedDistanceTo(center);
                     DataGridViewRow row = (DataGridViewRow)dgv_Items.RowTemplate.Clone();
                     row.CreateCells(dgv_Items, floor.Id.IntegerValue.ToString(), dist);
+                    Thread.Sleep(10);
                     return row;
                 }).ToArray();
 
             return rows;
-        }
-
-        private void btn_Normal_Click(object sender, EventArgs e)
-        {
-            _start = DateTime.Now;
-            var values = ObterDistanciasNormal();
-            this.dgv_Items.Rows.AddRange(values);
-            this.lblTime.Text = (DateTime.Now - _start).TotalSeconds.ToString();
         }
     }
 }

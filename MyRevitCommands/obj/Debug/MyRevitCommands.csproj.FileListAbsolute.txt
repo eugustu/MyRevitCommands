@@ -5,3 +5,10 @@ C:\Users\aschi\source\repos\MyRevitCommands\obj\Debug\MyRevitCommands.csproj.Cor
 C:\Users\aschi\source\repos\MyRevitCommands\obj\Debug\MyRevitCommands.dll
 C:\Users\aschi\source\repos\MyRevitCommands\obj\Debug\MyRevitCommands.pdb
 C:\Users\aschi\source\repos\MyRevitCommands\obj\Debug\MyRevitCommands.csproj.AssemblyReference.cache
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.csproj.AssemblyReference.cache
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.csproj.CoreCompileInputs.cache
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.dll
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\obj\Debug\MyRevitCommands.pdb
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\bin\Debug\MyRevitCommands.addin
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\bin\Debug\MyRevitCommands.dll
+C:\Users\aschi\source\repos\MyRevitCommands\MyRevitCommands\bin\Debug\MyRevitCommands.pdb

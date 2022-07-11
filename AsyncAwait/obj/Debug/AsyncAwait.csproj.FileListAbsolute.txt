@@ -7,3 +7,13 @@ C:\Users\aschi\source\repos\AsyncAwait\obj\Debug\AsyncAwait.dll
 C:\Users\aschi\source\repos\AsyncAwait\obj\Debug\AsyncAwait.pdb
 C:\Users\aschi\source\repos\AsyncAwait\obj\Debug\AsyncAwait.Frm_PointPlaneDelta_Results.resources
 C:\Users\aschi\source\repos\AsyncAwait\obj\Debug\AsyncAwait.Frm_Ray_Results.resources
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\bin\Debug\AsyncAwait.dll
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\bin\Debug\AsyncAwait.pdb
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.csproj.AssemblyReference.cache
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.Frm_PointPlaneDelta_Results.resources
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.Frm_Ray_Results.resources
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.csproj.GenerateResource.cache
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.dll
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.pdb
+C:\Users\aschi\source\repos\MyRevitCommands\AsyncAwait\obj\Debug\AsyncAwait.Frm_CutoutFromWall.resources
