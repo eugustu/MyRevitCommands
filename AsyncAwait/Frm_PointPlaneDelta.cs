@@ -13,13 +13,13 @@ using Form = System.Windows.Forms.Form;
 
 namespace AsyncAwait
 {
-    public partial class Frm_PointPlaneDelta_Results : Form
+    public partial class Frm_PointPlaneDelta : Form
     {
         private Document _doc;
         private List<Floor> _floors;
         private Plane _plane;
         private DateTime _start;
-        public Frm_PointPlaneDelta_Results(Document doc, List<Floor> floors, Plane plane)
+        public Frm_PointPlaneDelta(Document doc, List<Floor> floors, Plane plane)
         {
             InitializeComponent();
             _doc = doc;

@@ -12,10 +12,10 @@ namespace AsyncAwait
 {
     [TransactionAttribute(TransactionMode.Manual)]
     [RegenerationAttribute(RegenerationOption.Manual)]
-    class Command_Ray : IExternalCommand
+    class Command_SolidFilter : IExternalCommand
     {
         public Document doc;
-        public Frm_Ray frm;
+        public Frm_SolidFilter frm;
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var start = DateTime.Now;
@@ -24,18 +24,18 @@ namespace AsyncAwait
             UIDocument uidoc = app.ActiveUIDocument;
             doc = uidoc.Document;
 
-            List<Floor> rayFloors = new FilteredElementCollector(doc)
+            List<Floor> floors = new FilteredElementCollector(doc)
                 .WhereElementIsNotElementType()
                 .OfType<Floor>()
                 .ToList();
 
-            Floor bulkheadFloor = rayFloors
+            Floor bulkheadFloor = floors
                 .First(floor => floor.Name == "Concreto moldado em loco 225 mm");
 
-            rayFloors = rayFloors
+            floors = floors
                 .Except(new Floor[] { bulkheadFloor }).ToList();
 
-            frm = new Frm_Ray(doc, rayFloors);
+            frm = new Frm_SolidFilter(doc, floors, bulkheadFloor);
             frm.ShowDialog();
 
             frm.lblTime.Text = (DateTime.Now - start).TotalSeconds.ToString();

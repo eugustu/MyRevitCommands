@@ -1,7 +1,7 @@
 ﻿
 namespace AsyncAwait
 {
-    partial class Frm_PointPlaneDelta_Results
+    partial class Frm_PointPlaneDelta
     {
         /// <summary>
         /// Required designer variable.

@@ -15,7 +15,7 @@ namespace AsyncAwait
     class Command_PointPlaneDelta : IExternalCommand
     {
         public Document doc;
-        public Frm_PointPlaneDelta_Results frm;
+        public Frm_PointPlaneDelta frm;
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var start = DateTime.Now;
@@ -36,7 +36,7 @@ namespace AsyncAwait
 
             rayFloors = rayFloors.Except(new Floor[] { bulkheadFloor }).ToList();
 
-            frm = new Frm_PointPlaneDelta_Results(doc, rayFloors, plane);
+            frm = new Frm_PointPlaneDelta(doc, rayFloors, plane);
             frm.ShowDialog();
 
             return Result.Failed;

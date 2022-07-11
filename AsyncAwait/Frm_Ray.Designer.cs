@@ -1,7 +1,7 @@
 ﻿
 namespace AsyncAwait
 {
-    partial class Frm_Ray_Results
+    partial class Frm_Ray
     {
         /// <summary>
         /// Required designer variable.

@@ -12,11 +12,11 @@ using Form = System.Windows.Forms.Form;
 
 namespace AsyncAwait
 {
-    public partial class Frm_Ray_Results : Form
+    public partial class Frm_Ray : Form
     {
         private Document _doc;
         private List<Floor> _floors;
-        public Frm_Ray_Results(Document doc, List<Floor> floors)
+        public Frm_Ray(Document doc, List<Floor> floors)
         {
             InitializeComponent();
             _doc = doc;

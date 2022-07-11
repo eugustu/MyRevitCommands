@@ -57,24 +57,31 @@
   <ItemGroup>
     <Compile Include="Commands\Command_PointPlaneDelta.cs" />
     <Compile Include="Commands\Command_CutoutFromWall.cs" />
+    <Compile Include="Commands\Command_SolidFilter.cs" />
     <Compile Include="Commands\Command_Ray.cs" />
+    <Compile Include="Frm_SolidFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SolidFilter.Designer.cs">
+      <DependentUpon>Frm_SolidFilter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_CutoutFromWall.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_CutoutFromWall.Designer.cs">
       <DependentUpon>Frm_CutoutFromWall.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_PointPlaneDelta_Results.cs">
+    <Compile Include="Frm_PointPlaneDelta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_PointPlaneDelta_Results.Designer.cs">
-      <DependentUpon>Frm_PointPlaneDelta_Results.cs</DependentUpon>
+    <Compile Include="Frm_PointPlaneDelta.Designer.cs">
+      <DependentUpon>Frm_PointPlaneDelta.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Ray_Results.cs">
+    <Compile Include="Frm_Ray.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ray_Results.Designer.cs">
-      <DependentUpon>Frm_Ray_Results.cs</DependentUpon>
+    <Compile Include="Frm_Ray.Designer.cs">
+      <DependentUpon>Frm_Ray.cs</DependentUpon>
     </Compile>
     <Compile Include="GeometryUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,11 +91,14 @@
     <EmbeddedResource Include="Frm_CutoutFromWall.resx">
       <DependentUpon>Frm_CutoutFromWall.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_PointPlaneDelta_Results.resx">
-      <DependentUpon>Frm_PointPlaneDelta_Results.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_PointPlaneDelta.resx">
+      <DependentUpon>Frm_PointPlaneDelta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Ray_Results.resx">
-      <DependentUpon>Frm_Ray_Results.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Ray.resx">
+      <DependentUpon>Frm_Ray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SolidFilter.resx">
+      <DependentUpon>Frm_SolidFilter.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
